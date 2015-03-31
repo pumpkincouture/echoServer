@@ -11,18 +11,21 @@ public class EchoServer {
             System.exit(1);
         }
 
-        int portNumber = Integer.parseInt(args[0]);
-        System.out.println(portNumber);
-        ServerSocket serverSocket = new ServerSocket(Integer.parseInt(args[0]));
-        Socket clientSocket = serverSocket.accept();
-        PrintWriter out = new PrintWriter(clientSocket.getOutputStream(), true);
-        BufferedReader in = new BufferedReader(new InputStreamReader(clientSocket.getInputStream()));
+        while (true) {
 
-        String inputLine;
+            int portNumber = Integer.parseInt(args[0]);
+            System.out.println(portNumber);
+            ServerSocket serverSocket = new ServerSocket(Integer.parseInt(args[0]));
+            Socket clientSocket = serverSocket.accept();
+            PrintWriter out = new PrintWriter(clientSocket.getOutputStream(), true);
+            BufferedReader in = new BufferedReader(new InputStreamReader(clientSocket.getInputStream()));
+
+            String inputLine;
             while ((inputLine = in.readLine()) != null) {
                 System.out.println(inputLine);
                 out.write(inputLine);
 
             }
+        }
     }
 }
