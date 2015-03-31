@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="echoServer:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/echoServer_jar</output-path>
+    <root id="archive" name="echoServer.jar">
+      <element id="module-output" name="echoServer" />
+    </root>
+  </artifact>
+</component>
