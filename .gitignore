@@ -6,4 +6,4 @@ ntellij
 # Mac
 .DS_Store
 
-/artifacts
+artifacts/
