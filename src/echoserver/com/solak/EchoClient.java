@@ -26,6 +26,5 @@ public class EchoClient {
                 System.out.println("echo: " + in.readLine());
             }
         }
-
     }
 }

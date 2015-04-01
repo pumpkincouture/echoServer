@@ -17,10 +17,26 @@ public class EchoServer {
             PrintWriter out = new PrintWriter(clientSocket.getOutputStream(), true);
             BufferedReader in = new BufferedReader(new InputStreamReader(clientSocket.getInputStream()));
 
+            FileInputStream file = new FileInputStream("/Users/test/code/testfile.txt");
+            BufferedReader textReader = new BufferedReader(new InputStreamReader(file));
+
+            String line = null;
+
+            while ((line = textReader.readLine()) != null) {
+                System.out.println(line);
+            }
+
+            textReader.close();
+
+            File textFile = new File("/Users/test/code/testfile.txt");
+            System.out.println(textFile.getAbsolutePath());
+            System.out.println(textFile.length());
+
+
         while (true) {
             String inputLine;
             while ((inputLine = in.readLine()) != null) {
-                System.out.println("INFO:" + inputLine);
+                System.out.println("INFO: " + inputLine);
                 out.println(inputLine);
 
             }
