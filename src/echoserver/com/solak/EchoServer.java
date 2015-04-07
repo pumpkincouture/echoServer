@@ -40,8 +40,7 @@ public class EchoServer {
 
 
                 String inputLine = in.readLine();
-//                System.out.println("INFO: " + inputLine);
-//                out.println(inputLine);
+
 
                 if (inputLine.contains("GET /")) {
                     out.flush();
@@ -92,7 +91,7 @@ public class EchoServer {
                 }
 
                 System.out.println("before the close statement");
-                System.out.println(formResponse());
+//                System.out.println(formResponse());
                 in.close();
 
             }
@@ -115,7 +114,7 @@ public class EchoServer {
     }
 
     private static String formResponse() {
-        String responseString = "<form action=\"http://127.0.0.1:5000\" enctype=\"multipart/form-data\"" +
+        String responseString =
                 "method=\"post\">" +
                 "Enter the name of the File <input name=\"file\" type=\"file\"><br>" +
                 "<input value=\"Upload\" type=\"submit\"></form>" +

@@ -33,12 +33,11 @@
       <file leaf-file-name="EchoServer.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/echoserver/com/solak/EchoServer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.77319586" vertical-offset="0" max-vertical-offset="1980">
-              <caret line="30" column="56" selection-start-line="30" selection-start-column="56" selection-end-line="30" selection-end-column="56" />
+            <state vertical-scroll-proportion="0.66494846" vertical-offset="1383" max-vertical-offset="1965">
+              <caret line="118" column="86" selection-start-line="118" selection-start-column="86" selection-end-line="118" selection-end-column="86" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#1041#1068#0" expanded="true" />
-                <marker date="1428011550000" expanded="true" signature="1341:1429" placeholder="..." />
               </folding>
             </state>
           </provider>
@@ -486,7 +485,6 @@
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#1041#1068#0" expanded="true" />
-            <marker date="1428011550000" expanded="true" signature="1341:1429" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -514,7 +512,6 @@
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#1041#1068#0" expanded="true" />
-            <marker date="1428011550000" expanded="true" signature="1341:1429" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -534,7 +531,6 @@
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#1041#1068#0" expanded="true" />
-            <marker date="1428011550000" expanded="true" signature="1341:1429" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -554,7 +550,6 @@
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#1041#1068#0" expanded="true" />
-            <marker date="1428011550000" expanded="true" signature="1341:1429" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -606,19 +601,18 @@
         <state vertical-scroll-proportion="0.7989691" vertical-offset="0" max-vertical-offset="582">
           <caret line="31" column="0" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/echoserver/com/solak/EchoServer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.77319586" vertical-offset="0" max-vertical-offset="1980">
-          <caret line="30" column="56" selection-start-line="30" selection-start-column="56" selection-end-line="30" selection-end-column="56" />
+        <state vertical-scroll-proportion="0.66494846" vertical-offset="1383" max-vertical-offset="1965">
+          <caret line="118" column="86" selection-start-line="118" selection-start-column="86" selection-end-line="118" selection-end-column="86" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#1041#1068#0" expanded="true" />
-            <marker date="1428011550000" expanded="true" signature="1341:1429" placeholder="..." />
           </folding>
         </state>
       </provider>
